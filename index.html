@@ -8,32 +8,22 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-
     <link rel="stylesheet" href="css/style.css">
-
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162061508-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-162061508-1');
     </script>
-
-
-
-
-
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
-
 </head>
 
 <body>
     <header>
-
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
         </button>
@@ -43,14 +33,8 @@
                 <li class="nav__list"><a href="#about" class="nav__link">About me</a></li>
                 <li class="nav__list"><a href="#services" class="nav__link">My Services</a></li>
                 <li class="nav__list"><a href="#work" class="nav__link">My work</a></li>
-
-
             </ul>
         </nav>
-
-
-
-
     </header>
 
     <!--Introduction-->
@@ -62,39 +46,31 @@
         <img src="img/me.png" alt="a picture of chems Benaziza" class="intro__img">
     </section>
 
-
     <!-- about me-->
     <section class="about-me" id="about">
-
         <h2 class="section__title section__title--about">Who I am</h2>
         <p class="section__subtitle section__subtitle--about">Student & Desktop applications Developer</p>
-
         <div class="about-me__body">
             <p>I'm Chems Eddine Benaziza, a first-year engineering student at Télécom Paris. I began my higher education
                 in Algeria at "Ecole nationale supérieure d'informatique, Algiers" and then moved to France to complete
                 my bachelor's degree with a double major in Mathematics and Computer Science. Currently, I'm studying at
                 a top French engineering school and thoroughly enjoying it.
-
                 My primary areas of interest are software engineering, networks, algorithms, and I'm eager to explore
                 the realm of Data Science. I'm passionate about programming and working on exciting projects. I've been
-                a member of <a href="https://rezel.net/">Rezel</a>, the networks and programming society of Télécom, since I joined the school.
-
+                a member of <a href="https://rezel.net/">Rezel</a>, the networks and programming society of Télécom,
+                since I joined the school.
                 I have experience coding in Java, Python, C, C#, and Pascal. Lately, I've also ventured into web
                 development and network programming. I'm currently working on a crowd simulation web application written
                 in Python. The application allows users to design the environment with obstacles and aims and simulate
-                crowd flow in it. It will be publicly
-                available soon.
+                crowd flow in it. It will be publicly available soon.
             </p>
             <p>I live currently in Paris and I am ready to start any ambitious project while it goes with my skill set
             </p>
-            <p>I am a huge fan of competetive programming, algorithms and problem solving, I am trying to be better at that everyday, but it is hard, I will share my progress when I will be satisfied with it</p>
+            <p>I am a huge fan of competetive programming, algorithms and problem solving, I am trying to be better at
+                that everyday, but it is hard, I will share my progress when I will be satisfied with it</p>
             <p>My main hobbies are running, boxing and guitar, I also like astronomy and rocket science</p>
-
-
         </div>
         <img src="img/me.png" alt="chems picture" class="about-me__img">
-
-
     </section>
 
     <!-- My services -->
@@ -102,48 +78,28 @@
         <h2 class="section__title section__title--services">What I do</h2>
         <div class="service">
             <h3> Drafting Solutions </h3>
-            <p>
-                I am ready to start from scratch any solution plan, a good program, website or application starts
+            <p>I am ready to start from scratch any solution plan, a good program, website or application starts
                 with a plan, so we can understand the architechture and the strategy of the working, this should be
-                robuste and reliable
-            </p>
+                robuste and reliable</p>
         </div> <!-- service-->
         <div class="service">
             <h3>Implementing working models</h3>
-            <p>
-                With all the aquired skills I am ready to implement any sort of solution with the mentionned
-                technologies, however I am fully
-                engaged to start mastering additional technologies if needed
-            </p>
+            <p>With all the aquired skills I am ready to implement any sort of solution with the mentionned
+                technologies, however I am fully engaged to start mastering additional technologies if needed</p>
         </div> <!-- service-->
         <div class="service">
             <h3>Promotion of the product</h3>
-            <p>
-                Any good product should be promoted and advertised, having some experience in digital marketing and
-                communication, I
-                can feel now able to promote for a given solution.
-            </p>
+            <p>Any good product should be promoted and advertised, having some experience in digital marketing and
+                communication, I can feel now able to promote for a given solution.</p>
         </div> <!-- service-->
-
         <a href="#work" class="btn">My work</a>
-
-
-
-
-
-
     </section>
 
-
-
     <!-- my work -->
-
     <section class="my-work" id="work">
         <h2 class="section__title section__title--work">My work</h2>
         <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
-
         <div class="portfolio">
-
             <a href="https://github.com/chemousesi/ImmoESI_GUI_Version" class="portfolio__item">
                 <img src="img/dashboard.png" alt="" class="portfolio__img">
             </a>
@@ -157,24 +113,26 @@
             <a href="https://github.com/chemousesi/TopoGiraffe" class="portfolio__item">
                 <img src="img/topoGiraffe.jpg" alt="" class="portfolio__img">
             </a>
-
-
-
-
-
-
         </div>
-
-
-
     </section>
 
+    <!-- Review Form and Reviews Section -->
+    <section class="reviews-section" id="reviews">
+        <h2 class="section__title section__title--reviews">Reviews</h2>
+        <div class="review-form">
+            <h3>Leave a Review</h3>
+            <form id="reviewForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <textarea id="review" placeholder="Your Review" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="reviews-list" id="reviewsList"></div>
+    </section>
 
     <footer class="footer">
         <a href="mailto:chems.benaziza@gmail.com" class="footer-link">chems.benaziza@gmail.com</a>
-
         <ul class="social-list">
-
             <li class="socail-list__item">
                 <a class="social-list__link" href="https://github.com/chemousesi">
                     <i class="fab fa-github"></i>
@@ -185,18 +143,10 @@
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
-
-
-
         </ul>
-
     </footer>
-
-
-
     <script src="js/index.js"></script>
-
+    <script src="js/reviews.js"></script>
 </body>
-
 
 </html>
